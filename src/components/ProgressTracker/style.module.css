@@ -1,0 +1,55 @@
+.progress-tracker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.8) 32%,
+    rgba(255, 255, 255, 0.64) 47%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  padding: 20px;
+  width: 100%;
+}
+
+.dash {
+  font-size: large;
+  font-weight: 800;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-weight: 700;
+}
+
+.step div {
+  padding: 5px;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.step div img {
+  object-fit: contain;
+  height: auto;
+  width: 20px;
+}
+
+.done-step {
+  color: var(--main-color);
+}
+
+.done-step div {
+  border-color: var(--main-color);
+}
