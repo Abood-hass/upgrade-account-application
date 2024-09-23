@@ -1,0 +1,24 @@
+.progress-bar {
+  text-align: left;
+  color: darkgray;
+}
+
+.progress-bg {
+  background-color: #0000;
+  border-radius: 10px;
+  border-color: darkgray;
+  border-width: thin;
+  border-style: solid;
+  width: 25rem;
+  overflow: hidden;
+  height: 15px;
+}
+
+.progress-line {
+  box-sizing: border-box;
+  background-color: var(--main-color);
+  max-width: 80%;
+  max-height: 11px;
+  margin: 2px;
+  border-radius: 10px;
+}

@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  padding: 5px 0.5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding: 5px 0.5rem;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .wrapper {
+    padding: 10px 1.3rem;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+  .wrapper {
+    padding: 10px 5rem;
+  }
+}
