@@ -11,7 +11,8 @@
   );
 
   padding: 20px;
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
 
 .dash {
@@ -52,4 +53,29 @@
 
 .done-step div {
   border-color: var(--main-color);
+}
+
+@media (max-width: 1024px) {
+  .progress-tracker {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: flex-start;
+    row-gap: 10px;
+    width: 100%;
+  }
+
+  .dash {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .progress-tracker {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: flex-start;
+    row-gap: 10px;
+  }
 }

@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  padding: 5px 10px;
+
+  cursor: pointer;
+  width: 12vw;
+  height: 40px;
+  color: white;
+  background-color: var(--main-color);
+}
+
+.button span {
+  font-size: 15px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.button img {
+  object-fit: contain;
+  height: auto;
+  width: 20px;
+}

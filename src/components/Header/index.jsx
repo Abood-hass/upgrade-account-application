@@ -5,10 +5,10 @@ import style from './style.module.css'
 
 function Header() {
     return (
-        <div className={style.header}>
+        <header className={style.header}>
             <Title />
             <ProgressBar />
-        </div>
+        </header>
     )
 }
 
